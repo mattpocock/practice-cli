@@ -5,6 +5,7 @@
     "lib": [
       "es2023"
     ],
+    "outDir": "dist",
     "module": "Node16",
     "target": "es2022",
     "strict": true,
