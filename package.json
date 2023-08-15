@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "link-cli": "yarn --global unlink practice-cli && yarn --global link",
+    "link-cli": "yarn --global unlink practice-cli && chmod +x ./dist/index.js && yarn --global link",
     "dev": "tsc -w"
   },
   "keywords": [],
@@ -16,5 +16,8 @@
   "devDependencies": {
     "@types/node": "^20.5.0",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
   }
 }
