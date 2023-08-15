@@ -1,12 +1,18 @@
 {
   "name": "practice-cli",
-  "version": "0.0.1",
+  "bin": {
+    "practice": "./index.js"
+  },
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc -w"
   },
   "keywords": [],
   "author": "Matt Pocock",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
